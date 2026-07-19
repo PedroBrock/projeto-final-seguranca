@@ -1,1 +1,4 @@
-"# Bingo" 
+# Honeypot — Servidor Falso para Análise de Ataques
+Este projeto propõe a criação de um honeypot: um servidor falso que simula ser um serviço vulnerável, como um SSH ou FTP mal configurado, com o objetivo de atrair tentativas de acesso indevido. O sistema não expõe dados ou serviços reais, funcionando de forma totalmente isolada e segura, apenas registrando informações sobre quem tenta se conectar, quais comandos são executados e quais credenciais são testadas durante as tentativas de invasão. 
+O foco do trabalho é essencialmente defensivo, representando a estratégia de 'conhecer o inimigo' na prática: em vez de reagir a ataques, o honeypot permite observar e estudar o comportamento de atacantes em um ambiente controlado. Ao final, será gerado um relatório com estatísticas dos acessos simulados (origem, frequência, tipo de tentativa), demonstrando como essa técnica é utilizada por equipes de segurança reais para identificar padrões de ataque e fortalecer as defesas de sistemas de produção.
+
